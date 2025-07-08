@@ -112,7 +112,6 @@ export default function WebSocketStreamPlayer() {
     };
   }, []);
 
-  // Draw overlay text using 2D canvas
   useEffect(() => {
     const overlayCanvas = overlayCanvasRef.current;
     if (!overlayCanvas) return;
